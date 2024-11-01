@@ -21,15 +21,22 @@ public class JavaApplication5
         System.out.println("Fevereiro = " + fevereiro);
         System.out.println("Março = " + marco);
         
-        for (int j = 0; j < 50; j++) 
-        {
-            System.out.print("_"); 
-        }
-         
         System.out.println("");
+        System.out.println( "Resultado sem salvar na variável: " + String.format("%.2f",(janeiro + fevereiro + marco) / 3));
         
         double media = (janeiro + fevereiro + marco) / 3;
-        System.out.println("Média = " + String.format("%.2f", media) + "\n");
+        System.out.println("Na Variável Média = " + String.format("%.2f", media) + "\n");
+        
+        /*Troca de tipo de dados por força bruta*/
+        int x = (int)media;
+        System.out.println("forçando a troca de tipo de dados: " + x);
+        
+        int i = 1;
+        while(i<10)
+        {
+          System.out.println("Valor de i: " + i);
+          i++;
+        }
     }
     
 }
