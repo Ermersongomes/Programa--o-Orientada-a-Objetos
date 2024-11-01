@@ -6,7 +6,7 @@ package javaapplication5;
 
 /**
  *
- * @author 20241198060006
+ * @author Ermerson
  */
 public class JavaApplication5 
 {
@@ -21,11 +21,12 @@ public class JavaApplication5
         System.out.println("Fevereiro = " + fevereiro);
         System.out.println("Março = " + marco);
         
-         for (int j = 0; j < 50; j++) 
-         {
-            System.out.print("_"); // Usa print para ficar na mesma linha
-         }
-       
+        for (int j = 0; j < 50; j++) 
+        {
+            System.out.print("_"); 
+        }
+         
+        System.out.println("");
         
         double media = (janeiro + fevereiro + marco) / 3;
         System.out.println("Média = " + String.format("%.2f", media) + "\n");
