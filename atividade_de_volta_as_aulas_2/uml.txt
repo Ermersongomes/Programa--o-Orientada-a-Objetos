@@ -1,0 +1,13 @@
++-----------------------------------------------------+
+|                       Retangulo                     |
++-----------------------------------------------------+
+| - largura : double       			      |
+| - altura : double        			      |
++-----------------------------------------------------+
+| + Retangulo(largura: double, altura: double)        |
+| + getLargura() : double  			      |
+| + getAltura() : double  			      |
+| + setLargura(largura: double) : void 		      |
+| + setAltura(altura: double) : void		      |
+| + calcularArea() : double                           |
++-----------------------------------------------------+

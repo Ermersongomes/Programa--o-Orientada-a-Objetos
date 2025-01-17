@@ -33,14 +33,15 @@ public class Retangulo {
     }
     //.....................................
     
-    public static void calcularArea (double area,  double largura, double altura){
-        
-        area = largura * altura;
-        
+    public double calcularArea () {
+        return largura * altura;
     }
     
-    public static void main(String[] args){
-        calcularArea (5, 10);
-        
-    }
+  
+    
 }
+   public class main{
+        public static void main(String[] args){
+            
+        }
+    }
