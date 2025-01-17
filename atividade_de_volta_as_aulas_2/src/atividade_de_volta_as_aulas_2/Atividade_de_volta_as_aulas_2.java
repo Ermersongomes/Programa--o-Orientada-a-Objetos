@@ -1,5 +1,13 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
 package atividade_de_volta_as_aulas_2;
 
+/**
+ *
+ * @author 20241198060006
+ */
 import java.util.Scanner;
 
 public class Atividade_de_volta_as_aulas_2 {
@@ -13,7 +21,7 @@ public class Atividade_de_volta_as_aulas_2 {
             this.largura = largura;
             this.altura = altura;
         }
-//.............................................................
+        //.............................................................
         
         public double getLargura() {
             return largura;
@@ -22,7 +30,8 @@ public class Atividade_de_volta_as_aulas_2 {
         public double getAltura() {
             return altura;
         }
-//.............................................................
+        //................................................................
+        
         public void setLargura(double largura) {
             this.largura = largura;
         }
@@ -30,7 +39,8 @@ public class Atividade_de_volta_as_aulas_2 {
         public void setAltura(double altura) {
             this.altura = altura;
         }
-//..............................................................
+        //...................................................................
+        
         public double calcularArea() {
             return largura * altura;
         }
@@ -38,21 +48,20 @@ public class Atividade_de_volta_as_aulas_2 {
 
     public static void main(String[] args) {
         
-         // Scanner para leitura
         Scanner entrada = new Scanner(System.in);
 
-        // Solicitar ao usuário que informe a largura e altura do retângulo
-        System.out.print("Digite a largura do retângulo: ");
+
+        System.out.print("Digite a largura do retangulo: ");
         double largura = entrada.nextDouble();
         
-        System.out.print("Digite a altura do retângulo: ");
+        System.out.print("Digite a altura do retangulo: ");
         double altura = entrada.nextDouble();
         
-        // Criar o objeto Retangulo com os valores informados pelo usuário
+        // Objeto Retangulo com os valores informados pelo usuário
         Retangulo retangulo = new Retangulo(largura, altura);
 
-        // Calcular e exibir a área do retângulo
-        System.out.println("Área do retângulo: " + retangulo.calcularArea());
+
+        System.out.println("Area do retangulo e de: " + retangulo.calcularArea());
         
     }
 }
